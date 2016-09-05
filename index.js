@@ -1,5 +1,7 @@
 var express = require('express');
 var app = express();
+var http = require('http').Server(app);
+global.io = require('socket.io')(http);
 var evh = require('express-vhost');
 
 app.set('port', (process.env.PORT || 8080));
