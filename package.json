@@ -1,0 +1,24 @@
+{
+  "name": "node-vhost",
+  "version": "1.0.0",
+  "description": "Node server with virtual hosts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinxinw1/node-vhost.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xinxinw1/node-vhost/issues"
+  },
+  "homepage": "https://github.com/xinxinw1/node-vhost#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-vhost": "^0.2.0"
+  }
+}
