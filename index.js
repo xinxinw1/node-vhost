@@ -8,7 +8,7 @@ app.set('port', (process.env.PORT || 8080));
 
 app.use(evh.vhost(app.enabled('trust proxy')));
 
-app.listen(app.get('port'), function (){
+http.listen(app.get('port'), function (){
   console.log('Listening on port ' + app.get('port') + '!');
 });
 
